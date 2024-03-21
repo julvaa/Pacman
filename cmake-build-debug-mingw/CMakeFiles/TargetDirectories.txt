@@ -1,0 +1,3 @@
+C:/Users/Kot/CLionProjects/pacman/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+C:/Users/Kot/CLionProjects/pacman/cmake-build-debug-mingw/CMakeFiles/pacman.dir
+C:/Users/Kot/CLionProjects/pacman/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir

@@ -1,0 +1,14 @@
+# ninja log v5
+13	446	6775195121567989	CMakeFiles/PACMAN.dir/plansza.cpp.obj	fc83d047301f6fbc
+11	496	6775195122097971	CMakeFiles/PACMAN.dir/pacman.cpp.obj	bbdfb5239886fbbd
+2	684	6775195123977981	CMakeFiles/PACMAN.dir/main.cpp.obj	6f81ef14fa0088b4
+15	803	6775195125167970	CMakeFiles/PACMAN.dir/pacmanSFML.cpp.obj	aa0913f97a1ad602
+14	459	6775195784583368	CMakeFiles/pacman.dir/plansza.cpp.obj	58f06b403d7bd03a
+10	523	6775195785233406	CMakeFiles/pacman.dir/pacman.cpp.obj	90d0114dc2003996
+0	715	6775195787143386	CMakeFiles/pacman.dir/main.cpp.obj	a0131924fdc3e009
+12	834	6775195788333374	CMakeFiles/pacman.dir/pacmanSFML.cpp.obj	eb933d238b3c16f2
+11	438	6775269167095068	CMakeFiles/pacman.dir/plansza.cpp.obj	58f06b403d7bd03a
+12	516	6775269167895058	CMakeFiles/pacman.dir/pacman.cpp.obj	90d0114dc2003996
+3	721	6775269169945067	CMakeFiles/pacman.dir/main.cpp.obj	a0131924fdc3e009
+14	857	6775269171295059	CMakeFiles/pacman.dir/pacmanSFML.cpp.obj	eb933d238b3c16f2
+857	1349	6775269176185077	pacman.exe	fff53d393e140804

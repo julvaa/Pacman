@@ -1,0 +1,26 @@
+"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Kot\CLionProjects\PACMAN1\pacman
+CMake Error at CMakeLists.txt:34 (find_package):
+  Could not find a configuration file for package "SFML" that is compatible
+  with requested version "2".
+
+  The following configuration files were considered but not accepted:
+
+    C:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake, version: 2.5.1 (32bit)
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Kot/CLionProjects/PACMAN1/pacman/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+
+Cannot get compiler information:
+	Compiler exited with error code 1: C:\mingw32\bin\g++.exe -xc++ -DSFML_STATIC -isystemC:/SFML-2.5.1/include -g -Wall -Wextra -std=gnu++14 -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=C:\mingw32\bin\g++.exe
+	Target: i686-w64-mingw32
+	Configured with: ../../../src/gcc-7.3.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw730/i686-730-posix-dwarf-rt_v5-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/i686-730-posix-dwarf-rt_v5-rev0/mingw32/opt/include -I/c/mingw730/prerequisites/i686-zlib-static/include -I/c/mingw730/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/i686-730-posix-dwarf-rt_v5-rev0/mingw32/opt/include -I/c/mingw730/prerequisites/i686-zlib-static/include -I/c/mingw730/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/i686-730-posix-dwarf-rt_v5-rev0/mingw32/opt/include -I/c/mingw730/prerequisites/i686-zlib-static/include -I/c/mingw730/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/i686-730-posix-dwarf-rt_v5-rev0/mingw32/opt/lib -L/c/mingw730/prerequisites/i686-zlib-static/lib -L/c/mingw730/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+	Thread model: posix
+	gcc version 7.3.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+	COLLECT_GCC_OPTIONS='-D' 'SFML_STATIC' '-isystem' 'C:/SFML-2.5.1/include' '-g' '-Wall' '-Wextra' '-std=gnu++14' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=i686'
+	 C:/mingw32/bin/../libexec/gcc/i686-w64-mingw32/7.3.0/cc1plus.exe -E -quiet -v -iprefix C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/ -D_REENTRANT -D SFML_STATIC -D ___CIDR_DEFINITIONS_END -isystem C:/SFML-2.5.1/include C:\Users\Kot\AppData\Local\Temp\compiler-file7412242745718537082 -mtune=generic -march=i686 -std=gnu++14 -Wall -Wextra -fpch-preprocess -g -fworking-directory -dD
+	
+	
